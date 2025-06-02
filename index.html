@@ -184,7 +184,7 @@ document.getElementById('star-tip').style.visibility = 'visible';
 
     isClicked(mx, my) {
       const dist = Math.hypot(this.x - mx, this.y - my);
-      return dist < 10; // Adjust clickable radius
+      return dist < 25; // Adjust clickable radius
     }
   }
 
